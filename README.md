@@ -51,6 +51,19 @@ Con las últimas modificaciones, el proyecto ahora cuenta con las siguientes mej
 12. **Optimización y Modularidad**: Se continuó mejorando y modificando el código para un mejor rendimiento y adaptabilidad a las necesidades del proyecto.
 13. **Mecanismo de Alerta**: Implementación de alertas por correo electrónico para valores que sobrepasen un límite específico.
 
+## Pasa para Ejecutar el Proyecto:
+
+1. **Clonar el Repositorio: Clona el repositorio del proyecto desde GitHub en tu máquina local.
+  git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+2. **Configurar Archivos Necesarios: Asegúrate de tener los archivos apiKey.py y dbKey.py con las configuraciones necesarias en la raíz del proyecto.
+3. **Abrir Docker Desktop: Abre Docker Desktop en tu sistema operativo.
+4. **Abrir Terminal: Abre una terminal en la raíz del proyecto.
+5. **Ejecutar Docker Compose: Ejecuta el siguiente comando para construir y levantar los contenedores:
+  docker-compose up
+6. **Acceder al Proyecto: Una vez que los contenedores estén en ejecución, puedes acceder al proyecto a través de tu navegador web en http://localhost:puerto, donde puerto es el puerto configurado en tu archivo docker-compose.yml.
+
+Con estos pasos, los usuarios podrán ejecutar tu proyecto de manera fácil y rápida.
+
 ## Consideraciones Importantes
 
 ### Archivos Faltantes
