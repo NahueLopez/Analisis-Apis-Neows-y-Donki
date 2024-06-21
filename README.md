@@ -60,9 +60,7 @@ Con las últimas modificaciones, el proyecto ahora cuenta con las siguientes mej
 4. **Abrir Terminal**: Abre una terminal en la raíz del proyecto.
 5. **Ejecutar Docker Compose**: Ejecuta el siguiente comando para construir y levantar los contenedores:
   docker-compose up
-6. **Acceder al Proyecto**: Una vez que los contenedores estén en ejecución, puedes acceder al proyecto a través de tu navegador web en http://localhost:puerto, donde puerto es el puerto configurado en tu archivo   docker-compose.yml.
-
-Con estos pasos, los usuarios podrán ejecutar tu proyecto de manera fácil y rápida.
+6. **Acceder al Proyecto**: Una vez que los contenedores estén en ejecución, puedes acceder al proyecto a través de tu navegador web en http://localhost:8080, donde puerto es el puerto configurado en tu archivo   docker-compose.yml.
 
 ## Consideraciones Importantes
 
